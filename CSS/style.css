@@ -157,6 +157,7 @@ body {
 
 .title{
     position: relative;
+    
 }
 
 .title > img{
@@ -172,6 +173,8 @@ body {
     bottom:0rem;
     width: 100%;
     text-align: center;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
 }
 
 
@@ -346,6 +349,9 @@ body {
 }
 
 @media (max-width:600px){
+    .mysite{
+        grid-column: 1 / 7;
+    }
     .items{
         display: none
     }
@@ -354,6 +360,10 @@ body {
         grid-column: 10 /11;
         margin: .55rem auto auto auto
     }   
+
+    .header > h1 {
+        text-align: center;
+    }
 
     .container{
         grid-column: 1 / -1;
